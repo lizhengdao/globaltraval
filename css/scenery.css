@@ -1,0 +1,123 @@
+@charset "utf-8";
+#scenery figure {
+    width: 435px;
+    padding: 4px;
+    border: 1px solid #eee;
+    margin: 20px 10px 20px 0;
+    border-radius: 5px;
+    float: left;
+}
+
+#scenery img {
+    width: 435px;
+    height: 280px;
+}
+
+#scenery figcaption {
+    font-size: 20px;
+    color: #666;
+}
+
+/*booked*/
+.flight-type,#booked li,#booked form,#booked input,#booked table{
+    color: #666;
+    font-size: 20px;
+}
+.flight-type{
+
+
+    height: 30px;
+    text-align: left;
+
+    clear: both;
+    margin: 20px 0 0 0 ;
+}
+#booked ul {
+    display: inline-block;
+    text-align: center;
+
+}
+#booked span,#booked li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+#booked span{
+    display: inline-block;
+    text-align: center;
+
+}
+#booked li {
+    width: 60px;
+    border-radius: 5px;
+    margin:0 10px ;
+
+
+}
+#booked .checked{
+    color: white;
+    background-color: #458B00;
+}
+#booked form{
+    text-align: left;
+    position: relative;
+}
+#booked input{
+    width: 260px;
+    height: 40px;
+    text-indent: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #999;
+    background: white;
+    margin: 20px 35px 20px 0;
+}
+#book{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background-color: #FF6600;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 35px 40px 0 0;
+    border: none;
+
+}
+#booked table{
+    width: 910px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    line-height: 50px;
+    margin: 20px 0 0 0;
+    border-collapse: collapse;
+}
+#booked table tr{
+    border-bottom: 1px solid #eee;
+
+}
+#booked table tr:nth-child(even){
+    background-color: #FAFAFA;
+}
+#booked table .price{
+    color: #ff6600;
+}
+#booked table td{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+ }
+#booked table a{
+    display: inline-block;
+    height: 35px;
+    width: 78px;
+    border-radius: 5px;
+    line-height: 35px;
+    background-color: #FF6600 ;
+    color: white;
+    text-align: center;
+}
+

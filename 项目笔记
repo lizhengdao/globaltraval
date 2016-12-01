@@ -1,0 +1,7 @@
+1.使背景透明 opacity:0.6;
+2.文字加粗：font-weight: bold;
+3.鼠标停在按钮上面的时候出现手型：cursor: pointer;
+4.设置区块阴影： box-shadow:0 1px 10px rgba(0, 0, 0, 0.3);
+5.设置输入框提示语：placeholder="请输入旅游经典或城市";
+6.背景渐变:background:linear-gradient(to right bottom,rgba(0,0,0,0.7),transparent),url("../image/headline.jpg") center no-repeat;
+7.匹配奇数偶数子元素：p:nth-child(odd)，p:nth-child(even)

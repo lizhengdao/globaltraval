@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*public*/
+.center {
+    margin: 0 auto;
+    width: 1263px;
+}
+
+/*header*/
+#header {
+    width: 100%;
+    min-width: 1263px;
+    height: 70px;
+    background-color: #333;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#header div {
+    height: 70px;
+}
+
+#header h1 {
+    background: url("../image/logo.png");
+    width: 240px;
+    height: 70px;
+}
+
+.link {
+    margin-right: 10px;
+}
+
+.link > li {
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+
+.link a {
+    display: block;
+    height: 70px;
+    width: 100px;
+    color: #eee;;
+}
+
+.link a:hover, .ishover {
+    background-color: #000;
+}
+
+/*footer*/
+#footer{
+    margin-top:50px;
+    clear: both;
+    width: 100%;
+    min-width: 1263px;
+    height: 360px;
+    background-color: #222;
+}
+#footer .top{
+    height: 280px;
+}
+#footer .bottom{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #777;
+    border-top: 1px solid #444;
+}
+#footer .block{
+    height: 280px;
+    width: 410px;
+
+
+}
+#footer .center{
+    margin: 0 auto;
+}
+.block h2{
+    font-size: 24px;
+    color: #ccc;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+}
+.block hr{
+    border: 1px dashed #333;
+    width: 90%;
+}
+.block ul{
+    font-size: 18px;
+    color: #777;
+    text-indent: 20px;
+}
+.block li,.block a{
+    line-height: 36px;
+    color: #777;
+}
+#scenery,#about,#travel_infor,#booked{
+    clear: both;
+}
