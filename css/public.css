@@ -45,6 +45,9 @@
 .link a:hover, .ishover {
     background-color: #000;
 }
+.unhover{
+    background-color: #333;
+}
 
 /*footer*/
 #footer{
