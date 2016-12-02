@@ -5,7 +5,126 @@
     margin: 0 auto;
     width: 1263px;
 }
+/*headline*/
+#headline {
+    width: 100%;
+    min-width: 1263px;
+    height: 300px;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), transparent), url("../image/headline.jpg") center no-repeat;
+}
 
+#headline .center {
+    height: 300px;
+}
+
+#headline hgroup {
+    padding: 100px 0 0 50px;
+}
+
+#headline h2, #headline h3 {
+    color: #eee;
+}
+
+#headline h2 {
+    font-size: 36px;
+}
+
+#headline h3 {
+    font-size: 20px;
+}
+
+/*container*/
+#container {
+    width: 1263px;
+    margin: 30px auto;
+
+}
+
+#container .sidebar {
+    width: 340px;
+
+}
+
+/*sidebar*/
+.sidebar .sidebox {
+    width: 340px;
+    margin: 0 0 10px 0;
+    border: 1px solid #eee;
+}
+
+/*recommand*/
+.sidebar .recommand {
+    height: 400px;
+}
+
+.sidebar h2 {
+    font-weight: normal;
+    color: #666;
+    height: 50px;
+    background-color: #FAFAFA;
+    line-height: 50px;
+    padding: 0 0 0 5px;
+    font-size: 20px;
+}
+
+.sidebar .tag {
+    margin-top: 10px;
+    background-color: #777777;
+
+}
+
+.sidebar .tag-link {
+    text-align: center;
+    margin: 10px;
+}
+
+.tag-link > li {
+    float: left;
+    margin: 3px;
+
+}
+
+.tag-link a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    background-color: #eee;
+
+}
+
+.tag-link a:hover {
+    background-color: #458B00;
+    color: white;
+}
+
+/*hot*/
+.sidebar .hot {
+    height: 700px;
+}
+
+.hot .figure {
+    margin: 10px;
+    width: 340px;
+}
+
+.hot figure {
+    margin: 5px;
+    float: left;
+
+}
+
+.figure img {
+    width: 152px;
+    height: 120px;
+}
+
+.figure figcaption {
+    text-align: center;
+    width: 152px;
+    color: #666;
+}
 /*header*/
 #header {
     width: 100%;
@@ -99,4 +218,50 @@
 }
 #scenery,#about,#travel_infor,#booked{
     clear: both;
+}
+/*list*/
+#container .list {
+    width: 910px;
+    text-align: center;
+
+
+}
+
+/*treasure*/
+.sidebar .treasure {
+    height: 180px;
+}
+
+.treasure ul {
+    margin: 10px;
+}
+
+.treasure li {
+    float: left;
+}
+
+.treasure a {
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 154px;
+    margin: 3px;
+    background: #eee url("../image/trea1.png") no-repeat 10px center;
+    line-height: 50px;
+    color: #999;
+}
+
+.treasure a:hover {
+    background-color: #BFBFC1;
+    color: white;
+}
+
+.all-title{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 20px;
+    font-weight: normal;
+    color: #666;
+
 }
