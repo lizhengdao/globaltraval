@@ -1,7 +1,11 @@
 @charset "utf-8";
+/*css reset*/
 body,h1,div,ul,input,header,p,figure,h2,h3,ol,button{
     margin: 0;
     padding: 0;
+}
+header,nav,section,article,figure,figcaption,footer,aside{
+    display: block;
 }
 ul>li{
     list-style: none;

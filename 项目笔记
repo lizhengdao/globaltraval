@@ -4,4 +4,13 @@
 4.设置区块阴影： box-shadow:0 1px 10px rgba(0, 0, 0, 0.3);
 5.设置输入框提示语：placeholder="请输入旅游经典或城市";
 6.背景渐变:background:linear-gradient(to right bottom,rgba(0,0,0,0.7),transparent),url("../image/headline.jpg") center no-repeat;
-7.匹配奇数偶数子元素：p:nth-child(odd)，p:nth-child(even)
+7.匹配奇数偶数子元素：p:nth-child(odd)，p:nth-child(even);
+8.让列表淡入显示$("ul>li").hide().fadeIn(3000);
+
+
+项目总结：
+名称：瓢城旅行社
+描述：瓢城旅行社是一个用于展示旅游相关内容的一个门户网站，其中包括首页、旅游资讯、机票订购、风景欣赏、公司简介等模块。
+仿这个网站让我更加熟练使用css选择器和设置各种css属性，使用html元素和html5新标签,调节各个浏览器兼容性。
+技术：html/html5,全手写css/css3
+

@@ -10,7 +10,7 @@
     width: 100%;
     min-width: 1263px;
     height: 300px;
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), transparent), url("../image/headline.jpg") center no-repeat;
+    background:  url("../img/headline.jpg") center no-repeat;
 }
 
 #headline .center {
@@ -139,7 +139,7 @@
 }
 
 #header h1 {
-    background: url("../image/logo.png");
+    background: url("../img/logo.png");
     width: 240px;
     height: 70px;
 }
@@ -191,9 +191,9 @@
 #footer .block{
     height: 280px;
     width: 410px;
-
-
 }
+
+
 #footer .center{
     margin: 0 auto;
 }
@@ -223,8 +223,6 @@
 #container .list {
     width: 910px;
     text-align: center;
-
-
 }
 
 /*treasure*/
@@ -241,14 +239,15 @@
 }
 
 .treasure a {
-    text-align: center;
     display: inline-block;
     height: 50px;
     width: 154px;
     margin: 3px;
-    background: #eee url("../image/trea1.png") no-repeat 10px center;
+    background: #eee url("../img/trea1.png") no-repeat 10px center;
     line-height: 50px;
     color: #999;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .treasure a:hover {

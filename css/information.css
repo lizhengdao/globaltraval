@@ -25,6 +25,7 @@
 .list .islisthover {
     background-color: white;
     border-top: 2px solid green;
+    box-sizing: border-box;
 }
 
 .list .right {
@@ -44,11 +45,10 @@
     height: 25px;
     line-height: 25px;
 }
-.list .right a:hover,.list .right li:first-child {
+.list .right a:hover,.isSlected a{
     background-color: #458B00;
-    color: white;
+    color: white!important;
 }
-
 /*list-figure*/
 .list-figure{
     position: relative;
@@ -134,10 +134,10 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: url("../image/disc.png");
+    background: url("../img/disc.png");
 }
 .disc span{
-margin-top: 6px;
+    margin-top: 7px;
     display: inline-block;
     color: #FF6600;
     font-size: 16px;

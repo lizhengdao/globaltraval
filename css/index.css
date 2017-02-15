@@ -1,12 +1,10 @@
 @charset "utf-8";
-
-
 /*search*/
 #search {
     width: 100%;
     min-width: 1263px;
     height: 600px;
-    background: url("../image/search.jpg") no-repeat center;
+    background: url("../img/search.jpg") no-repeat center;
     position: relative;
 }
 
@@ -19,16 +17,16 @@
 }
 
 #search input {
-    border: none;
     height: 50px;
     width: 450px;
-    background-color: #eee;
     margin: -26px 0 0 -290px;
     z-index: 100;
-    font-size: 24px;
+    font-size: 20px;
     border: 1px solid #666;
     color: #666;
-    text-align: center;
+    /*text-align: center;*/
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
 
 }
 
@@ -40,9 +38,8 @@
     height: 54px;
     width: 120px;
     margin: -27px 0 0 170px;
-    font-weight: bold;
     color: #666;
-    font-size: 24px;
+    font-size: 22px;
     cursor: pointer;
 }
 

@@ -51,25 +51,27 @@
     width: 60px;
     border-radius: 5px;
     margin:0 10px ;
-
-
 }
-#booked .checked{
-    color: white;
+#booked .checked,#booked li:hover{
+    color: white !important;
     background-color: #458B00;
+    cursor: pointer;
 }
 #booked form{
     text-align: left;
     position: relative;
 }
 #booked input{
+    display: inline-block;
     width: 260px;
     height: 40px;
-    text-indent: 0.5em;
     border-radius: 5px;
+    padding-left: 15px;
     border: 1px solid #999;
     background: white;
-    margin: 20px 35px 20px 0;
+    /*margin: 20px 35px 20px 0;*/
+    margin: 20px 20px 20px 0;
+    vertical-align: middle;
 }
 #book{
     text-align: center;
