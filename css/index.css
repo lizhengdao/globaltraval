@@ -24,9 +24,9 @@
     font-size: 20px;
     border: 1px solid #666;
     color: #666;
-    /*text-align: center;*/
     box-sizing: border-box;
     padding: 0 0 0 15px;
+
 
 }
 
@@ -39,8 +39,9 @@
     width: 120px;
     margin: -27px 0 0 170px;
     color: #666;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
+    letter-spacing: 5px;
 }
 
 /*touris*/

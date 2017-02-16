@@ -7,6 +7,10 @@ body,h1,div,ul,input,header,p,figure,h2,h3,ol,button{
 header,nav,section,article,figure,figcaption,footer,aside{
     display: block;
 }
+html{
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
 ul>li{
     list-style: none;
 }
